@@ -29,7 +29,7 @@ The geolocation feature uses the python-geoip library. To install:
 ```
 pip install python-geoip-geolite2
 ```
-Make sure you have downloaded locally the geolocation from [MaxMind](https://dev.maxmind.com/geoip/geoip2/web-services/) abd add the path into mirabeau.py
+Make sure you have downloaded locally the geolocation database from [MaxMind](https://dev.maxmind.com/geoip/geoip2/web-services/) to import it into mirabeau.py
 ### Usage
 ```
 python3 mirabeau.py directory_of_parsed_logs output_directory
