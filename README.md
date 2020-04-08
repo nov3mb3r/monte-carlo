@@ -1,6 +1,7 @@
 # monte-carlo
-The Office 365 log parser
+
 ![](https://raw.githubusercontent.com/nov3mb3r/monte-carlo/master/monte%20carlo.PNG)
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Monte Carlo is a collection of 3 tools to process Office 365 Unified audit logs in incident response investigations. It is extensible and breaks the processing tasks in 3 stages (sectors): 
