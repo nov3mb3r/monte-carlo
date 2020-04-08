@@ -7,14 +7,14 @@
 Monte Carlo is a collection of 3 tools to process Office 365 Unified audit logs in incident response investigations. It is extensible and breaks the processing tasks in 3 stages (sectors): 
 
  - Parse Office 365 unified audit log based on specfic operations
- - Geolocate the a user account login IPs
+ - Geolocate operations for user accounts 
  - Import the processed csv files into one Excel spreadsheet with unique tabs for each user account
 
 Named after the famous turns on the 3 sectors of Monte Carlo Grand Prix track
 
 ## Sector 1 - Sainte Devote: Parse the Office 365 Unified audit log
 
-By default 3 properties are extracted: CreationTime, UserID, ClientIP, but can be extended according to the investigation needs.
+By default 3 properties are extracted: CreationTime, UserID, ClientIP, but properties can be extended according to the investigation needs.
 A detailed list can be found on [Microsoft documentation](https://docs.microsoft.com/en-us/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log?view=o365-worldwide).
 
 ### Usage
@@ -45,7 +45,7 @@ PS >.\piscine.ps1 input_directory
 
 ### Todos
 
- - Integrate Sainte Devote and Mirabeau into one file
+ - Integrate Sainte Devote and Mirabeau into one script
  - Add binaries
 
 License
